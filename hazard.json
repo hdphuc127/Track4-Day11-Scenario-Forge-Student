@@ -1,0 +1,47 @@
+{
+ "format": "avsim-studio/1",
+ "params": {
+  "cutT0": 7.986896247537786,
+  "cutDur": 5.332716183835643,
+  "cutV": 14.49565561427508,
+  "cutDs": -9.882268032590414,
+  "pedT0": 14.808338669204417,
+  "pedV": 1.4392749144728023,
+  "busGo": 14.956499585907082,
+  "tgT": 1.3194195711163754,
+  "cutGap": 11.999575703090336,
+  "pedGap": 4.987943849342186,
+  "mu": 0.8,
+  "pedLook": 1,
+  "cutBrake": 0.0,
+  "civil": true
+ },
+ "policy": {},
+ "ego": "planner",
+ "hazards": [
+  {
+   "type": "ped",
+   "side": "S",
+   "x": 130.0,
+   "v": 1.5,
+   "t0": 0.0,
+   "trig": 25.0
+  }
+ ],
+ "space": {
+  "h0_x": [
+   95,
+   160
+  ],
+  "h0_v": [
+   0.8,
+   2.2
+  ],
+  "h0_trig": [
+   10,
+   40
+  ]
+ },
+ "exposure": 0.02,
+ "why": "Nguoi bang ngang giua block, khong co vach, buoc ra tu le phai (side S) khi xe ta con cach 10-40 m. Toc do di bo 0.8-2.2 m/s: di cham (nguoi gia) den chay nhe (Fruin; tieu chuan MUTCD 1.07-1.2 m/s, chay ~2 m/s). Exposure 0.02/chuyen: o pho do thi Viet Nam bang ngang ngoai vach rat pho bien, nhung tinh huong 'buoc ra sat dau xe' uoc chung 1 lan / 50 chuyen ngan; day la gia dinh, can du lieu dashcam (vd. ty le near-miss jaywalking trong nuScenes/Waymo) de thay."
+}
